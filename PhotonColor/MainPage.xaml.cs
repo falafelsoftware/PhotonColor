@@ -10,8 +10,8 @@ namespace PhotonColor
 {
     public sealed partial class MainPage : Page
     {
-        const string PHOTONDEVICEID = "390032000447343337373738";
-        const string ACCESS_TOKEN = "b7b20dda00c7f11e1638a0fc6ee1519ee162f3f9";
+        const string PHOTONDEVICEID = "{YOURDEVICEID}";
+        const string ACCESS_TOKEN = "{YOURACCESSSTOKEN}";
         DispatcherTimer timer;
         SolidColorBrush currentColor;
         public MainPage()
